@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  26 FEB 2024 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  26 FEB 2024 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,49 +1129,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-<figs/Rs.png, id=4, 688.5725pt x 141.52875pt>
-File: figs/Rs.png Graphic file (type png)
-<use figs/Rs.png>
-Package pdftex.def Info: figs/Rs.png  used on input line 141.
-(pdftex.def)             Requested size: 516.0pt x 106.05775pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--143
+(./figs/Rs1.tex) (./figs/Rs2.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 138--149
 
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/Rs.png>]
-<figs/Ds1.png, id=17, 331.2375pt x 193.72375pt>
-File: figs/Ds1.png Graphic file (type png)
-<use figs/Ds1.png>
-Package pdftex.def Info: figs/Ds1.png  used on input line 154.
-(pdftex.def)             Requested size: 252.84283pt x 147.87302pt.
-
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./figs/Ds1.tex)
 (./figs/Ds2.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 150--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--167
 
  []
 
-[2 <./figs/Ds1.png>] (./42.aux) ) 
+[2] [3] (./42.aux) ) 
 Here is how much of TeX's memory you used:
- 24127 strings out of 478287
- 519854 string characters out of 5849290
- 804367 words of memory out of 5000000
- 41787 multiletter control sequences out of 15000+600000
- 538956 words of font info for 176 fonts, out of 8000000 for 9000
+ 24132 strings out of 478287
+ 519893 string characters out of 5849290
+ 809375 words of memory out of 5000000
+ 41784 multiletter control sequences out of 15000+600000
+ 540332 words of font info for 178 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,11n,96p,406b,722s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips
-/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
->
-Output written on 42.pdf (2 pages, 60070 bytes).
+ 101i,11n,96p,406b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
+</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 42.pdf (3 pages, 48319 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -65,8 +65,8 @@
 }{%
   \end{array}\right)
 }
-%\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
-%\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
+\providecommand{\hilbert}{\overset{\mathcal{H}}{ \rightleftharpoons}}
+\providecommand{\system}{\overset{\mathcal{H}}{ \longleftrightarrow}}
 	%\newcommand{\solution}[2]{\textbf{Solution:}{#1}}
 \newcommand{\solution}{\noindent \textbf{Solution: }}
 \newcommand{\cosec}{\,\text{cosec}\,}
@@ -122,7 +122,7 @@
 
 \textbf{Question: 42} In the following block diagram, $R(s)$ and $D(s)$ are two inputs. The output Y(s) is expressed as $Y(s) = G_1(s)R(s) + G_2(s)D(s).$\\
 $G_1(s)$ and $G_2(s)$ are given by\\
-\begin{figure}[htbp]
+\begin{figure}[htbp!]
 \centering
 \input{figs/gate.tex}
 \end{figure}\\
@@ -135,10 +135,16 @@ $G_1(s)$ and $G_2(s)$ are given by\\
 \solution\\
 Let $Y\brak{s}= Y_1\brak{s} + Y_2\brak{s}$, where $Y_1\brak{s}$= output considering only $R\brak{s}$, $Y_2\brak{s}$ = Output considering only $D\brak{s}$\\
 
-When only R(s) is present:
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=\columnwidth]{figs/Rs.png}
+When only R(s) is present:\\
+\begin{figure}[ht!]
+    \resizebox{0.9\textwidth}{!}{\input{figs/Rs1.tex}}
+    %\caption{Block Diagram of System}
+    %\label{fig:gate_ec_Q42_gatetex}
+\end{figure}\\
+\begin{figure}[ht!]
+    \resizebox{0.9\textwidth}{!}{\input{figs/Rs2.tex}}
+    %\caption{Block Diagram of System}
+    %\label{fig:gate_ec_Q42_gatetex}
 \end{figure}\\
 \begin{align}
 \frac{Y_1\brak{s}}{R\brak{s}} &= \frac{\frac{G\brak{s}}{1+ G\brak{s}H\brak{s}}}{1+ \frac{G\brak{s}}{1+G\brak{s}H\brak{s}}}\\
@@ -149,9 +155,13 @@ Hence,
  G_1\brak{s} = \frac{G\brak{s}}{1+G\brak{s}+G\brak{s}H\brak{s}}
 \end{align}
 When only $D\brak{s}$ is present,
-\begin{figure}[htbp]
+\begin{figure}[ht!]
+    \resizebox{0.9\textwidth}{!}{\input{figs/Ds1.tex}}
+    %\caption{When only R(s) is present}
+    %\label{fig:gate_ec_Q42_Ds1tex}
+\end{figure}
+\begin{figure}[ht!]
 \centering
-\includegraphics[width=0.49\columnwidth]{figs/Ds1.png}
 \input{figs/Ds2.tex}
 \end{figure}\\
 \begin{align}
