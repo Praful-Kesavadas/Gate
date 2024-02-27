@@ -1,20 +1,9 @@
-\begin{tikzpicture}[thick,font=\large]
- \draw[-latex] (0,0) -- (1,0);
- \node[above] at (0.8,0) {-};
- \node[below] at (2.1,0) {-};
- \node[above] at (1.5,1.5){$D\brak{s}$};
- \draw (1.5,0) circle [radius=0.5cm];
- \draw[-latex] (1.5, 1.5) -- (1.5,0.5);
- \draw[-] (2,0) --(4,0);
- \draw (4,-0.5) rectangle (6,0.5);
- \node at (5,0){$G\brak{s}$};
- \draw[-] (6,0) -- (8.5,0);
- \node[right] at (8.5,0){$Y_2\brak{s}$};
- \draw[-] (8,0) -- (8,-3.5);
- \draw[-] (8,-2) -- (6,-2);
- \draw (6, -2.5) rectangle (4,-1.5);
- \node at (5,-2) {$H\brak{s}$};
- \draw[-] (4,-2) -- (1.5,-2);
- \draw[-latex] (1.5,-2) -- (1.5, -0.5);
- \draw[-] (8,-3.5)-- (0,-3.5) -- (0,0);
-\end{tikzpicture}
+\begin{circuitikz}[scale=1.5]
+    \draw
+    (0,0) to[short, -*] node[pos=0] {$\textgreater$} node[pos=0.7, below=1mm] {$y_1$} node[pos=0,above=1.5mm] {$1$} (1,0) to [short,-*] node[pos=0] {$\textgreater$} node[pos=0,above=2mm] {$G(s)$} (3,0) to [short,-] (3.5,0);
+    
+    \draw (3,0) to [out=-90,in=-90] node[pos=0.5] {$\textless$} node[pos=0.4,below=2mm] {$-1$} (1,0);
+    \draw (3,0) to [out=90,in=90] node[pos=0.5] {$\textless$} node[pos=0.4,above=2mm] {$-H(s)$} (1,0);
+    \node[left] at (0,0) {$D(s)$};
+    \node[right] at (3.5,0) {$Y_2(s)$};
+\end{circuitikz}
