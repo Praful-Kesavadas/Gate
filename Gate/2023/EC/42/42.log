@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  28 FEB 2024 00:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.1.6)  29 FEB 2024 11:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1232,31 +1232,7 @@ LaTeX Warning: Command \textless invalid in math mode on input line 6.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 6.
 
-) (./figs/Rs2.tex
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 5.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 5.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 138--147
-
- []
-
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./figs/Ds1.tex
+) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./figs/Ds1.tex
 
 LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
 
@@ -1281,50 +1257,26 @@ LaTeX Warning: Command \textless invalid in math mode on input line 6.
 
 LaTeX Warning: Command \textless invalid in math mode on input line 6.
 
-) (./figs/Ds2.tex
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textgreater invalid in math mode on input line 3.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 5.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 5.
-
-)
-Underfull \hbox (badness 10000) in paragraph at lines 154--164
-
- []
-
-[2] (./42.aux) ) 
+) [2] [3] (./42.aux) ) 
 Here is how much of TeX's memory you used:
- 38022 strings out of 478287
- 946240 string characters out of 5849290
- 1474198 words of memory out of 5000000
- 55616 multiletter control sequences out of 15000+600000
- 537640 words of font info for 174 fonts, out of 8000000 for 9000
+ 37898 strings out of 478287
+ 942456 string characters out of 5849290
+ 1474208 words of memory out of 5000000
+ 55498 multiletter control sequences out of 15000+600000
+ 541292 words of font info for 185 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,11n,94p,456b,896s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</us
-r/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on 42.pdf (2 pages, 48659 bytes).
+ 99i,13n,94p,456b,898s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
+c}</usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on 42.pdf (3 pages, 51285 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 31 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -133,41 +133,59 @@ $G_1\brak{s}$ and $G_2\brak{s}$ are given by\\
 \item $G_1\brak{s} = \frac{G\brak{s}}{1+G\brak{s}+G\brak{s}H\brak{s}}$ and $G_2\brak{s} = \frac{G\brak{s}}{1+ G\brak{s}+H\brak{s}}$\\
 \end{enumerate}
 \solution\\
-Let $Y\brak{s}= Y_1\brak{s} + Y_2\brak{s}$, where $Y_1\brak{s}$= output considering only $R\brak{s}$, $Y_2\brak{s}$ = Output considering only $D\brak{s}$\\
-
+By superposition principle, let\\ 
+\begin{align*}Y\brak{s}&= Y_1\brak{s} + Y_2\brak{s}\\ \text{where } Y_1\brak{s}&= \text{output considering only } R\brak{s}\\ Y_2\brak{s} &= \text{Output considering only } D\brak{s}
+\end{align*}
 When only R(s) is present:\\
 \begin{figure}[ht!]
 \centering
 \input{figs/Rs1.tex}
 \end{figure}\\
-\begin{figure}[ht!]
-\centering
-\input{figs/Rs2.tex}
-\end{figure}\\
+By Mason's gain formula, 
 \begin{align}
-\frac{Y_1\brak{s}}{R\brak{s}} &= \frac{\frac{G\brak{s}}{1+ G\brak{s}H\brak{s}}}{1+ \frac{G\brak{s}}{1+G\brak{s}H\brak{s}}}\\
+ \frac{Y_1\brak{s}}{R(s)} = \sum_{k=1}^n \frac{P_k.\Delta{_k}}{\Delta} \label{eq:gate.2023.ec.qn.42.1}
+\end{align}
+where,\begin{align*}
+ n &= \text{Number of forward paths}\\
+       \Delta{_k} &= \text{ Associated path factor}\\
+       P_k &= \text{ Path gain of the $k^{th}$ forward path}
+       \end{align*}
+Here, 
+\begin{align}
+ n&=1\brak{\text{i.e path } R-y_1-y_2-y_3-Y_1}\\
+ P_1&= G\brak{s}\\
+ \Delta{_1}&= 1 \brak{\text{As no isolated node is present}}\\
+ \Delta &= 1+ G\brak{s} + G\brak{s}H\brak{s}
+\end{align}
+Substituting in \eqref{eq:gate.2023.ec.qn.42.1},
+\begin{align}
+\frac{Y_1\brak{s}}{R\brak{s}} &= \frac{G\brak{s}}{1+G\brak{s} + G\brak{s}H\brak{s}}\\
 Y_1\brak{s} &= \sbrak{\frac{G\brak{s}}{1+ G\brak{s}+ G\brak{s}H\brak{s}}} R\brak{s}
 \end{align}
 Hence,
 \begin{align}
  G_1\brak{s} = \frac{G\brak{s}}{1+G\brak{s}+G\brak{s}H\brak{s}}
 \end{align}
-When only $D\brak{s}$ is present,
+When only $D\brak{s}$ is present:
 \begin{figure}[ht!]
 \centering
 \input{figs/Ds1.tex}
 \end{figure}\\
-\begin{figure}[ht!]
-\centering
-\input{figs/Ds2.tex}
-\end{figure}\\
+Here, 
 \begin{align}
-\frac{Y_2\brak{s}}{D\brak{s}} &= \frac{G\brak{s}}{1+G\brak{s}\sbrak{1+ H\brak{s}}}\\
-Y_2\brak{s}&= \sbrak{ \frac{G\brak{s}}{1+G\brak{s}\sbrak{1+H\brak{s}}}}D\brak{s}
+ n&=1\brak{\text{i.e path } D-y_1-y_2-Y_2}\\
+ P_1&= G\brak{s}\\
+ \Delta{_1}&= 1 \\
+ \Delta &= 1+ G\brak{s} + G\brak{s}H\brak{s}
 \end{align}
-Hence, 
+Substituting in \eqref{eq:gate.2023.ec.qn.42.1},
 \begin{align}
-G_2\brak{s} = \frac{G\brak{s}}{1+ G\brak{s}+ G\brak{s}H\brak{s}}
+\frac{Y_2\brak{s}}{D\brak{s}}&= \frac{G\brak{s}}{1+ G\brak{s}+G\brak{s}H\brak{s}}\\
+Y_2\brak{s}&= \sbrak{\frac{G\brak{s}}{1+ G\brak{s}+ G\brak{s}H\brak{s}}} D\brak{s}
+\end{align}
+Hence,
+\begin{align}
+G_2\brak{s} &= \frac{G\brak{s}}{1+ G\brak{s}+ G\brak{s}H\brak{s}}
 \end{align}
 Option \brak{a} is correct
 \end{document}
